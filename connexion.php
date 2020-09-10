@@ -1,7 +1,7 @@
 <?php
 if (!empty($_POST) &&  !empty($_POST['username']) && !empty($_POST['password'])) {
   require_once 'base_de_donnes.php';
-  require_once 'fonctions.php';
+  
 
   $req = $connexion->prepare('SELECT * FROM utilisateurs WHERE username =:username');
   $req->execute(['username' => $_POST['username']]);
