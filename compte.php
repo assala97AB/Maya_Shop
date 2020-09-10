@@ -31,7 +31,7 @@ if (!empty($_POST)) {
   <div class="container">
     <div class="row">
       <div class="col-2">
-        <img src="images/meliodas.png" height="700px" width="800px">
+        <img src="meliodas.png" height="700px" width="800px">
       </div>
       <div class="col-2">
         <div class="form-container">
