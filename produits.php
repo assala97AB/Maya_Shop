@@ -8,7 +8,7 @@ $get_pro->execute();
 $resultat = $get_pro->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
-<img src="images/pic.JPG" width="100%">
+<img src="pic.JPG" width="100%">
 <div class="small-container">
   <h2 class="title">Mangas</h2>
   <div class="row">
